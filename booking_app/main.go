@@ -91,7 +91,7 @@ func bookTickets(firstname string, lastname string, email string, userTickets ui
 	//bookings[0] = firstname + " " + lastname
 	bookings = append(bookings, firstname+" "+lastname)
 
-	fmt.Printf("Thank you %v %v for booking %v tickets. You will recieve a confirmation mail on %v.\n", firstname, lastname, userTickets, email)
+	fmt.Printf("Hi! , Thank you %v %v for booking %v tickets. You will recieve a confirmation mail on %v.\n", firstname, lastname, userTickets, email)
 	fmt.Printf("%v tickets remaining for %v!!\n", remainingTickets, conferenceName)
 
 }
